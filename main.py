@@ -36,14 +36,8 @@ USER_AGENTS = [
 
 def print_banner():
     print(rf"""
-{Fore.CYAN}  _  __ _       _                  _ 
- | |/ /| |     | |            /\   (_)
- | ' / | |     | | ___       /  \   _ 
- |  <  | |     | |/ _ \     / /\ \ | |
- | . \ | |____ | | (_) |   / ____ \| |
- |_|\_\|______||_|\___/   /_/    \_\_|
-                                      
-Kelliark | Klok.ai Auto Chat Bot{Style.RESET_ALL}
+{Fore.CYAN}                           
+Kelliark | Klok.ai Auto Referral and Chat Bot{Style.RESET_ALL}
 """)
 
 def log_message(wallet_count, address, ip, ref_code, status="info", message=""):
