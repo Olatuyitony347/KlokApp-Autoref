@@ -1,0 +1,3 @@
+// only support http proxies...
+// protool://username:password@host(ip):port
+// http://useername:password@ip:port  /// delete this 3 line and paste your proxy
